@@ -31,11 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="A.h" />
 		<Unit filename="A_decl.h" />
-		<Unit filename="A_impl.h" />
+		<Unit filename="B.h" />
+		<Unit filename="B_decl.h" />
 		<Unit filename="Base.h" />
-		<Unit filename="Repository_decl.h" />
-		<Unit filename="Repository_impl.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

@@ -1,12 +1,10 @@
-#ifndef Base_h
-#define Base_h
-
-class Repository;
+#ifndef BASE_h
+#define BASE_h
 
 struct Base
 {
-    virtual void setup(Repository* repo) = 0;
-    virtual void foo() = 0;
+    virtual ~Base() {}
+    virtual void foo() const = 0;
 };
 
-#endif // Base_h
+#endif // BASE_h

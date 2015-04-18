@@ -3,12 +3,12 @@
 
 #include "Base.h"
 
-class Repository;
+class B;
 
 struct A : Base
 {
-    void setup(Repository* repo);
-    void foo();
+    virtual void foo() const override;
+    void call_b(const B& b) const;
 };
 
 #endif // A_DECL_H
